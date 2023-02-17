@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point, last digit of the string
+ * main - entry point, prints the last digit of n
  * Return: 0 always
  */
 
@@ -17,11 +17,11 @@ int main(void)
 	r = n % 10;
 	printf("Last digit of r is ", n, r);
 	
-	if (r > 5);
+	if (r > 5)
 	{
 	printf("and is greater than 5\n");
 	}
-	else if (r == 0);
+	else if (r == 0)
 	{
 	printf("and is 0\n");
 	}
