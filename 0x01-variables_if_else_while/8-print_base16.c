@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - print all numbers of base 16
+ * Return: 0
+ */
+
+int main(void)
+
+{
+	int b;
+
+	for (b = 48; b < 56; b++)
+	{
+	putchar(b);
+	}
+	for (b = 'a'; b <= 'f'; b++)
+	{
+	putchar(b);
+	}
+	putchar('\n');
+
+	return (0);
+}
