@@ -22,6 +22,7 @@ int main(void)
 	{
 	putchar(num1 + '0');
 	putchar(num2 + '0');
+	putchar(' ');
 	putchar(num3 + '0');
 	putchar(num4 + '0');
 
