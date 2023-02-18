@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - entry point, print single digits
  * Return: 0
  */
 
