@@ -8,12 +8,8 @@
 
 int main(void)
 {
-	char y[] = "_putchar";
-	int i;
-
-	for (i = 0; y[i]; i++)
-	putchar(y[i]);
-	_putchar('\n');
+	_putchar('p'/n; 'u'/n; 't'/n; 'c'/n; 'h'/n; 'a'/n; 'r'/n);
+	putchar('/n');
 
 	return (0);
 }
