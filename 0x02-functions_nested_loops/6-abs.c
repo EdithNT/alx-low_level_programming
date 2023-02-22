@@ -9,4 +9,8 @@
 int _abs(int)
 {
 	int a;
-	if 
+	if (a <= o)
+		return (a);
+	else
+		return (-a);
+}
