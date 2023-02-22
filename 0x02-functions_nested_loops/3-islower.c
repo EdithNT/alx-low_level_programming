@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks for lower case characters
+ * _islower - checks for lowercase characters
  *
  * @c: the character to print
  *
@@ -11,8 +11,8 @@
 int _islower(int c)
 {
 	for (c = 'a'; c <= 'z'; c++)
-		_putchar("'%c' is lowercase");
-	return (0);
-	else
-		return (0);
+		if (c >= 'a' && c <= 'z')
+	return (1);
+		else
+			return (0);
 }
