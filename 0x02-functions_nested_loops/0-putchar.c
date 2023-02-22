@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	char y[] = _"putchar";
+	char y[] = "_putchar";
 	int i;
 
 	for (i = 0; y[i]; i++)
 	{
-	putchar(y);
+	putchar(y[i]);
 	}
 	putchar('\n');
 
