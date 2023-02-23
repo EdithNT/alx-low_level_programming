@@ -3,6 +3,9 @@
 /**
  * add - adds integers
  *
+ * @a: first integer
+ * @b: second integer
+ *
  * Return: 0
  */
 
