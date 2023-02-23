@@ -6,13 +6,12 @@
  * Return: 0
  */
 
-int print_last_digit(int)
+int print_last_digit(int m, y)
 {
-	int m, y;
-
 	y = m % 10;
 	
 	if (y = m % 10)
 	       _putchar(y);
 
-	return (0);	       
+	return (0);
+}	
