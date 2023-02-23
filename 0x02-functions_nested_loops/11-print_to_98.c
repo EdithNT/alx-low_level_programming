@@ -3,7 +3,7 @@
 /**
  * print_to_98 - print natural numbers from n to 98
  *
- * @n: value of integer 
+ * @n: value of integer
  *
  * Return: 0
  */
@@ -11,7 +11,7 @@
 void print_to_98(int n)
 {
 	if (n >= 98)
-		while ( n > 97)
+		while (n > 97)
 			printf("%d, ", n--);
 	else
 		while (n < 98)
