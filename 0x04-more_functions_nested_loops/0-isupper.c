@@ -2,7 +2,7 @@
 
 /**
  * _isupper - we are checking for upper case letters
- *@c: integer value
+ * @c: integer value
  * Return: 1 if uppercase, 0 otherwise
  */
 
