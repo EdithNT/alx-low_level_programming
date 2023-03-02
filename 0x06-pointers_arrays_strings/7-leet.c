@@ -11,8 +11,8 @@ char *leet(char *s)
 {
 	int i, j;
 
-	char *a = aeotlAEOTL;
-	char *b = 4307143071;
+	char *a = aAeEoOtTlL;
+	char *b = 4433007711;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
