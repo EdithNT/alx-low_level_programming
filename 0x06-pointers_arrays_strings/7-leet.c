@@ -10,6 +10,7 @@
 char *leet(char *s)
 {
 	int i, j;
+
 	char *a = aeotlAEOTL;
 	char *b = 4307143071;
 
