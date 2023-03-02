@@ -6,14 +6,14 @@
  * @src: string to be appended
  * @n: number bytes
  *
- * Return: void
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0, r = 0;
 
-	while (src[++])
+	while (src[i++])
 		r++;
 
 	for (i = 0; src[i] && i < n; i++)
