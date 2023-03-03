@@ -2,14 +2,22 @@
 #include <stdio.h>
 
 /**
- * print_buffer - prints content of size buffer
- * @b: pointer to buffer size
- * @size: buffer size
- *
- * Return: void
+ * isPrintableASCII - determines if n is a printable ASCII char
+ * @n: integer
+ * Return: 1 if true, 0 if false
  */
+int isPrintableASCII(int n)
+{
+	return (n >= 32 && n <= 126);
+}
 
-void print_buffer(char *b, int size)
+/**
+ * printHexes - print hex values for string b in formatted form
+ * @b: string to print
+ * @start: starting position
+ * @end: ending position
+ */
+void printHexes(char *b, int start, int end)
 {
 	int i = 0;
 
