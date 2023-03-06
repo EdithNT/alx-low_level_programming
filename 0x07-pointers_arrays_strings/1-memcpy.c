@@ -5,7 +5,6 @@
  * @dest: location of copying
  * @src: area to be copied from
  * @n: number of bytes to be copied
- * @i: size of n
  *
  * Return: a pointer to dest
  */
