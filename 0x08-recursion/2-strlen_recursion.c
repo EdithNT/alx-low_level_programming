@@ -14,6 +14,8 @@ int _strlen_recursion(char *s)
 		_putchar('\n');
 	}
 	else
+	{
 		_strlen_recursion(s++);
 		return (0);
+	}
 }
