@@ -5,7 +5,7 @@
  * @i: testing number
  * @j: main number
  *
- * Return: -1 if the square is greater than 
+ * Return: -1 if the square is greater than
  * the main number, the tester if there is a square root,
  * and 0 if nothing happens
  */
@@ -31,6 +31,6 @@ int squareroot(int i, int j)
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
-			return (0);
-	return (squareroot(n, 1);
+		return (0);
+	return (squareroot(n, 1));
 }
