@@ -18,7 +18,7 @@ int squareroot(int i, int j)
 		return (i);
 	else
 		return (squareroot(j, i + 1));
-	return (0);
+	return (1);
 }
 
 /**
