@@ -10,7 +10,7 @@
  * and 0 if nothing happens
  */
 
-int squareroot(int i, int j)
+int squareroot(int j, int i)
 {
 	if (i * i > j)
 		return (-1);
@@ -18,7 +18,7 @@ int squareroot(int i, int j)
 		return (i);
 	else
 		return (squareroot(j, i + 1));
-	return (1);
+	return (0);
 }
 
 /**
