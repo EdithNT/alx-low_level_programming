@@ -2,10 +2,10 @@
 
 /**
  * primenumber - finds prime numbers
- * @p:
- * @q:
- * 
- * Return:
+ * @p: number
+ * @q: prime number to test p
+ *
+ * Return: 1 for a prime number, 0 otherwise
  */
 
 int primenumber(int p, int q)
@@ -13,7 +13,7 @@ int primenumber(int p, int q)
 	if (p <= 1 || p % q == 0)
 		return (0);
 	else if (p == q)
-		return (1)
+		return (1);
 	else if (p > q)
 		primenumber(p, q + 1);
 	return (1);
