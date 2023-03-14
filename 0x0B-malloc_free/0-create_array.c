@@ -16,10 +16,13 @@ char *create_array(unsigned int size, char c)
 	char *ptrarray;
 	unsigned int a; /* this is the counter for the loop */
 
+	if (size == 0)
+		return (NULL);
+
 	ptrarray = malloc(size * sizeof(char));
 
-	if (size == 0)
-	return (NULL);
+	if (!ptrarray)
+		return (NULL);
 
 	for (a = 0; a < size; a++)
 	{
