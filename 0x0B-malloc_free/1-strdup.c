@@ -20,7 +20,9 @@ char *_strdup(char *str)
 	strDuplicate = _strdup(str);
 
 	if (!strDuplicate)
+	{
 		return (NULL);
-	else
-		return (strDuplicate);
+	}
+
+	return (strDuplicate);
 }
