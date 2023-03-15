@@ -2,15 +2,15 @@
 
 /**
  * main - entry point
- * @argc: first argument
- * @argv: second argument
+ * @argc: counts number of arguments
+ * @argv: array of pointers to argument strings
  *
  * Return: 0
  */
 
 int main(int argc, char *argv[])
 {
-	(void) argv;
+	(void)argv;
 
 	printf("argc = %d\n", argc - 1);
 
