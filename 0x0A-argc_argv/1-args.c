@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(argc, argv[])
+int main(argc,_attribute_((unused))argv[])
 {
 	printf("argc = %d\n", argc);
 
