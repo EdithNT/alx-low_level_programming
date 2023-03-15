@@ -22,5 +22,5 @@ char *_strdup(char *str)
 	if (!strDuplicate)
 		return (NULL);
 	else
-		return ();
+		return (strDuplicate);
 }
