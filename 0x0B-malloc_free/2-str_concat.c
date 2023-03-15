@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * str_concat - concatenetes two strings
@@ -10,7 +11,6 @@
  * followed by the contents of s2, and null terminated
  * NULL on failure
  */
-
 char *str_concat(char *s1, char *s2)
 {
 	char *concat_str;
