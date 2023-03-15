@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - 
- * @argc:
- * @argv:
+ * main - entry point
+ * @argc: count arguments
+ * @argv: array of arguments
  *
  * Return: 0
  */
 
-int main(int argc, char **argv[])
+int main(int argc, char *argv[])
 {
 	while (argc--)
-		printf("%s\n", *argv++;
+		printf("%s\n", argv++;
+
 	return (0);
 }
