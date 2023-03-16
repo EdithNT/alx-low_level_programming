@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int sum, cents;
 
-	if (argc > 2);
+	if (argc > 2)
 	{
 		printf("Error\n");
 		return (1);
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 		else if (cents - 1 >= 0)
 			cents = cents - 1;
 	}
-	
+
 	printf("%d\n", sum)
 		return (0);
 }
