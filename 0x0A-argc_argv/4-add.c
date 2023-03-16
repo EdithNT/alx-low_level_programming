@@ -25,3 +25,4 @@ int main(int argc, char *argv[])
 	sum = a + b;
 
 	printf("%i\n", sum)
+}	
