@@ -30,3 +30,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		n[a] = 0;
 
 	return (n);
+}
