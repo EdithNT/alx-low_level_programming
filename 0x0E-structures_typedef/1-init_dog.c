@@ -13,14 +13,9 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog our_dog;
-
-	if (our_dog == NULL)
+	if (d == NULL)
 		return (NULL);
-	our_dog->d;
-	our_dog->name;
-	our_dog->age;
-	our_dog->owner;
-
-	return (our_dog);
+	d->name = name;
+	d->age = age;
+	d->owner = owner;
 }
