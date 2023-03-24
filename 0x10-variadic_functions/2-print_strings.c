@@ -19,15 +19,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (b = 0; b < n; b++)
 	{
+		string = va_arg(charArrays, char *);
 		printf("%d", va_arg(charArrays, const unsigned int));
 
-		if (charArrays == NULL)
+		if (string == NULL)
 			printf("(nil)");
 		else
 			printf("%s", string);
 		if (separator != NULL && (n - 1) > b)
 			printf("%s", separator);
 	}
-	va_end(charArrays);
 	printf("\n");
+	va_end(charArrays);
 }
