@@ -20,7 +20,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (b = 0; b < n; b++)
 	{
 		string = va_arg(charArrays, char *);
-		printf("%d", va_arg(charArrays, const unsigned int));
 
 		if (string == NULL)
 			printf("(nil)");
