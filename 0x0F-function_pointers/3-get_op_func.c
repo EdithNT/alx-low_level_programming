@@ -6,7 +6,7 @@
  * perform the operation asked by the user
  * @s: the operator passed as argument to the program
  *
- * Return: 0
+ * Return: a pointer to the function on success
  */
 
 
@@ -25,10 +25,9 @@ int (*get_op_func(char *s))(int, int)
 	if (s == NULL)
 		return (NULL);
 
-	while (ops[i] == s)
+	while (ops[i].op == s)
 	{
-		return (ops[i].p);
+		return (*ops[i].p);
 		i++;
 	}
-	return (0);
 }
