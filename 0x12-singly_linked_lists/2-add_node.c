@@ -18,11 +18,12 @@ list_t *add_node(list_t **head, const char *str)
 	new_head_node->str = strdup(str);
 	if (new_head_node != NULL)
 	{
-		for (i = 1; str[i]; i++)
+		for (i = 1; str[i];)
+			i++;
 	}
-	new_head_node->next = *head;
 	new_head_node->len = i;
-	new_head_node = *head;
+	new_head_node->next = *head;
+	*head = new_head_node;
 
 	return (*new_head_node);
 }
