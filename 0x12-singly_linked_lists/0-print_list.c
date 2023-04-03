@@ -4,12 +4,12 @@
  * print_list - prints all the elements of a list_t list
  * @h: pointer to data of type list_t
  *
- * Return: number of nodes
+ * Return: number of nodes(n)
  */
 
 size_t print_list(const list_t *h)
 {
-	size_t nodes = 0;
+	size_t n = 0;
 
 	while (h)
 	{
@@ -17,9 +17,9 @@ size_t print_list(const list_t *h)
 			printf("[0] (nil)\n");
 		else
 			printf("[%d] %s\n", h->len, h->str);
-		nodes++;
+		n++;
 		h = h->next;
 	}
 
-	return (nodes);
+	return (n);
 }
