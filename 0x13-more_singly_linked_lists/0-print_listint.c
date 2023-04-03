@@ -16,13 +16,11 @@ size_t print_listint(const listint_t *h)
 	 * which is the pointer to the next node, print its data too,
 	 * and repeat the process until null is reached
 	 */
-	int i;
-
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
 	}
 
-	return (i);
+	return (0);
 }
