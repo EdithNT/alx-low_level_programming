@@ -15,5 +15,5 @@ int sum_listint(listint_t *head)
 		return (0);
 	temp = head;
 
-	return sum_listint(temp->next) + temp->n;
+	return (sum_listint(temp->next) + temp->n);
 }
