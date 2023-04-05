@@ -18,12 +18,12 @@ int pop_listint(listint_t **head)
 	 * the second node, free the memory of the deleted node with
 	 * the declared pointer
 	 */
-	n = (*head)->n;
+	n = temp->n;
 
 	if (head == NULL)
 		return (0);
 	temp = *head;
-	*head = (*head)->next;
+	*head = temp->next;
 	free(temp);
 
 	return (n);
