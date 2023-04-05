@@ -13,7 +13,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	list_t *endNode;/* new node to be created */
 	list_t *temp; /* temp ptr for traversing list */
 	/**
-	 * j is for iterating to get the position of current node
+	 * j is for iterating to get the length of node
 	 */
 	int j;
 
@@ -39,5 +39,5 @@ list_t *add_node_end(list_t **head, const char *str)
 		temp = temp->next;
 		temp->next = endNode;
 	}
-	return (endNode);
+	return (*head);
 }
