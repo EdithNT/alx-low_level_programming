@@ -10,21 +10,31 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *temp;
-	int j = 1;
+	list_t *endNode;/* new node to be created */
+	list_t *temp; /* temp ptr for traversing list */
+	/**
+	 * j is for iterating to get the position of current node
+	 */
+	int j;
 
-	temp = malloc(sizeof(list_t));
-
-	if (temp == NULL)
-		return (NULL);
-
-	temp->str = (strdup)str;
-	for (j; temp[j];)
-		j++;
-	temp->str = str;
-	temp->len = j;
-	temp->next = NULL;
+	endNode = malloc(sizeof(list_t));
 
 	if (*head == NULL)
-		*head = temp;
+		*head = endNode;
+	if (endNode == NULL)
+		return (NULL);
+
+	endNode->str = strdup(str);
+	for (j = 0; str[j]; j++)
+		;
+	endNode->len = j;
+	endNode->next = NULL;
+
+	temp = *head; /* assign ptr head to temp */
+	while (temp->next != NULL)
+	{
+		temp->next = endNode;
+		endNode->next = NULL;
+	}
+	return (endNode);
 }
